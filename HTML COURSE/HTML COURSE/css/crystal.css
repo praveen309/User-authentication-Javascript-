@@ -1,0 +1,50 @@
+h1 {
+  background-color: rgb(196, 132, 132);
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 40px;
+}
+#main {
+  color: rgb(50, 184, 121);
+}
+p {
+  margin: 0;
+  font-size: 20px;
+  text-align: justify;
+}
+h2 {
+  color: #f77104;
+  text-align: center;
+  background-color: #b3ebe1;
+}
+#skills {
+  /*show off*/
+  color: rgb(4, 87, 241);
+}
+strong {
+  font-size: 20px;
+}
+label {
+  display: inline-block;
+  width: 150px;
+}
+form {
+  text-align: center;
+}
+img,
+#fline {
+  margin: 0;
+}
+body {
+  background-color: #fbe7c6;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+  }
+}

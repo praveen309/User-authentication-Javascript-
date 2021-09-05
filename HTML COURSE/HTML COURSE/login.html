@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/first.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ccdb68bc85.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: #BBE7FE;
+            margin: 0;
+        }
+        .content{
+            text-align: center;
+            padding: 10px;
+        }
+        .input{
+            padding: 5px;
+        }
+        p{
+            font-size: 25px;
+        }
+        a:hover{
+            background-color: rgb(186, 186, 214);
+        }
+        a{
+            border:1px solid black;
+            border-radius: 5px;
+            text-decoration: none;
+            background-color: rgb(235, 229, 229);
+            padding:5px;
+        }
+        label{
+            display: inline-block;
+            width: 100px
+        }
+        i,span{
+            font-size: 25px;
+        }
+        i{
+            float:right;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>PK's User Management System   <button type="button"><i class="fas fa-address-book"><span>Register</span></i></button> </h1>
+    <section class="content">
+        <p>Login</p>
+        <form action="">
+            <label for="userid">User ID: </label>
+            <input type="text" id="userid" > <br> <br>
+            <label for="paswrd">Password: </label>
+            <input type="password" id="pwd" > <br> <br> <br>
+        </form>
+        <button type="button" onclick="userLogin()">Login</button>
+        <button type="button" location.href="./landing.html">Cancel</button>
+    </section>
+    <script type="text/javascript" src="./js/validate.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha256.min.js"></script>
+</body>
+</html>

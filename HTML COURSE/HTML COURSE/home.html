@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="css/first.css">
+    <style>
+        th,td {
+            width: 100px;
+            text-align: center;
+            border: 1px solid black;
+            padding: 15px;
+        }
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .center tr:nth-child(even){
+            background-color: wheat;
+        }
+        .center tr:nth-child(odd){
+            background-color: white;
+        }
+        p{
+            font-size: 25px;
+        }
+        th{
+            background-color: rgb(135, 224, 135);
+        }
+        body{
+            background-color: #7EC8E3;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registered Accounts</h1>
+    <p><b>Registered Users</b></p>
+    <div class="container">
+        <div class="userprofile">
+            <h3>User Profile</h3>
+            <div class="userdetails">
+                <div><span class="label">Name:</span> <span id="userName"> - </span> </div>
+                <div><span class="label">Email:</span> <span id="userEmail"> - </span> </div>
+                <div><span class="label">Age:</span> <span id="userAge"> - </span> </div>
+                <div><span class="label">pan:</span> <span id="userPAN"> - </span> </div>
+                <div><span class="label">Phone No:</span> <span id="userPhoneNo"> - </span> </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/home.js"></script>
+
+</body>
+</html>

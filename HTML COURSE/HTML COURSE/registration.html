@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/first.css" />
+    <style>
+      p {
+        font-size: 25px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        font-size: 20px;
+        padding: 2px;
+      }
+      body {
+        background-color: #BBE7FE;
+        margin: 0;
+      }
+      .info {
+        margin-left: 20px;
+      }
+      button:hover {
+        background-color: rgb(186, 186, 214);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PK's User Management System</h1>
+    <section class="info">
+      <p><b>User Registration</b></p>
+      <form action="">
+        <label for="fname">Name: </label>
+        <input type="text" id="fname"  placeholder="Enter your name" > <br>
+        <br>
+        <label for="Emid">Email ID: </label>
+        <input type="text" id="Emid" placeholder="Enter your EmaiID" > <br>
+        <br>
+        <label for="a">Age: </label>
+        <input type="number" id="a" > <br>
+        <br>
+        <label for="paswrd">Password: </label>
+        <input type="password" id="paswrd" > <br>
+        <br>
+        <label for="conpaswrd">confirm Password: </label>
+        <input type="password" id="conpaswrd" > <br>
+        <br>
+        <label for="pan">PAN NO:</label>
+        <input type="text" id="pan"> <br>
+        <br>
+        <div>
+          <label>Gender</label>
+          <input type="radio" name="g" value="m" >Male
+          <input type="radio" name="g" value="f">Female
+          <input type="radio" name="g" value="o">Transgender <br>
+          <br>
+        </div>
+        <div>
+          <label>Hobbies</label>
+          <input type="checkbox" name="hobby" value="play">Playing 
+          <input type="checkbox" name="hobby" value="read">Reading
+          <input type="checkbox" name="hobby" value="swim">Swimming
+        </div>
+        <br>
+        <br>
+        <button type="button" onclick="display()">Register</button>
+        <button type="button" location.href="./landing.html">Cancel</a></button>
+      </form>
+    </section>
+    <script type="text/javascript" src="js/validate.js"></script>
+    <script type="text/javascript" src="js/registration.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/sha256.min.js"></script>
+  </body>
+</html>
